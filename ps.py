@@ -58,12 +58,12 @@ X O X O X
 O X O X O
 X O X O X
 """
-# rows=4
-# count=1
-# for i in range(rows):
-#     s=""
-#     for j in range(i+1):
-#         s+=str(count)+" "
-#         count+=1
+rows=4
+count=1
+for i in range(rows):
+    s=""
+    for j in range(i+1):
+        s+=str(count)+" "
+        count+=1
         
-#     print(s)
+    print(s)
