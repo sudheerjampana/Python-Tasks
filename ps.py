@@ -16,17 +16,17 @@
 #         res+=chr(count)+" "
 #         count+=1
 #     print(res)
-rows=5
-count=97
-for i in range(1,rows+1):
-    res=""
-    for j in range(1,i+1):
-        if i==j or i==rows or j==1:
-            res+=chr(count)+" "
-        else:
-            res+=" "+" "
-        count+=1
-    print(res)
+# rows=5
+# count=97
+# for i in range(1,rows+1):
+#     res=""
+#     for j in range(1,i+1):
+#         if i==j or i==rows or j==1:
+#             res+=chr(count)+" "
+#         else:
+#             res+=" "+" "
+#         count+=1
+#     print(res)
 
 """
 1
@@ -58,12 +58,23 @@ X O X O X
 O X O X O
 X O X O X
 """
-rows=4
-count=1
+# rows=4
+# count=1
+# for i in range(rows):
+#     s=""
+#     for j in range(i+1):
+#         s+=str(count)+" "
+#         count+=1
+        
+#     print(s)
+
+rows=5
 for i in range(rows):
     s=""
-    for j in range(i+1):
-        s+=str(count)+" "
-        count+=1
-        
+    for j in range(rows):
+        if i==0 or j==0 or i==rows-1 or j==rows-1:
+            s+="*"+" "
+        else:
+            s+=" "+" "
     print(s)
+
