@@ -49,6 +49,16 @@ k l m n o
 #             res+=" "+" "
 #     print(res)
 
+"""
+* * * * * * * 
+*           * 
+*           *
+*     *     *
+*           *
+*           *
+* * * * * * *
+"""
+
 rows=9
 center=rows//2
 for i in range(rows):
