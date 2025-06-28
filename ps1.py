@@ -145,15 +145,19 @@ print(rev)"""
 # print(res)  
 
 
-# s=[1,200,300,400,500,1000]
+# s=[10000,2000,300,400,500,1000]
 # a=s[0]#1 200 300
 # # s.sort()
 # # print(s[-1])
 # for i in s:#1 200 300 400
-#     if i>a: #1>1 200>1 300>200
+#     if i<a: #1>1 200>1 300>200
 #         a=i
-#     print(a)
+#     # print(a)
 # print(a)
+# print(s)
+a=[6,5,10]
+a.remove(6)
+print(a)
 
 # s=[10,20,30,50]
 # max1=0
@@ -212,27 +216,27 @@ print(rev)"""
 #         count+=1
 # print(n,"is next prime")
 
-# 1. Print the list of prime numbers and non prime numbers separately in given list.
-num_list=[1,2,3,4,5,6,7,8,9,10]
-prime=[]
-for i in range(len(num_list)):
-    fact=0
-    for j in range(1,num_list[i]+1):
-        if num_list[i]%j==0:
-            fact+=1
-    if fact==2:
-        prime.append(num_list[i])
-print("prime list: ",prime)
+# # 1. Print the list of prime numbers and non prime numbers separately in given list.
+# num_list=[1,2,3,4,5,6,7,8,9,10]
+# prime=[]
+# for i in range(len(num_list)):
+#     fact=0
+#     for j in range(1,num_list[i]+1):
+#         if num_list[i]%j==0:
+#             fact+=1
+#     if fact==2:
+#         prime.append(num_list[i])
+# print("prime list: ",prime)
 
 
-# 2. Count the skills through the dictionary.
-my_details={
-    "name":"sudheer",
-    "skills":["HTML","CSS","JS","Python"],
-    "languages":["telugu","english","hindi"]
-}
-skills=my_details["skills"]
-print(len(skills))
+# # 2. Count the skills through the dictionary.
+# my_details={
+#     "name":"sudheer",
+#     "skills":["HTML","CSS","JS","Python"],
+#     "languages":["telugu","english","hindi"]
+# }
+# skills=my_details["skills"]
+# print(len(skills))
 
 
 
