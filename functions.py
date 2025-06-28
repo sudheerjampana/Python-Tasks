@@ -16,39 +16,39 @@
 
 
 
-# #1. write a function that takes two numbers as input and performs addition
-# def add(x,y):
-#     d=x+y
-#     print("addition of two numbers is: ",d)
-# add(4,6)
+#1. write a function that takes two numbers as input and performs addition
+def add(x,y):
+    d=x+y
+    print("addition of two numbers is: ",d)
+add(4,6)
 
-# #2.create a function that accepts a name and displays a personalized greeting
-# def greetings(name):
-#     print("hello","goodmorning",name)
-# greetings("sudheer")
+#2.create a function that accepts a name and displays a personalized greeting
+def greetings(name):
+    print("hello","goodmorning",name)
+greetings("sudheer")
 
-# #3. write a function to calculate the square of a given number
-# def square(z):
-#     e=z*z
-#     print("square of a number is: ",e)
-# square(33)
+#3. write a function to calculate the square of a given number
+def square(z):
+    e=z*z
+    print("square of a number is: ",e)
+square(33)
 
-# #4.write a function to multiply two numbers
-# def mul(a,b):
-#     f=a*b
-#     print("multiplication of two numbers is:",f)
-# mul(2,3)
+#4.write a function to multiply two numbers
+def mul(a,b):
+    f=a*b
+    print("multiplication of two numbers is:",f)
+mul(2,3)
 
-# #5. create a function that takes a string as input and prints the length of the string
-# def text(greet):
-#     i=len(greet)
-#     print("length of the string is:",i)
-# text("good morning every one")
+#5. create a function that takes a string as input and prints the length of the string
+def text(greet):
+    i=len(greet)
+    print("length of the string is:",i)
+text("good morning every one")
 
-# def div(a,b):
-#     c=a/b
-#     print("division of two values is:"+str(c))
-# div(10,5)
+def div(a,b):
+    c=a/b
+    print("division of two values is:"+str(c))
+div(10,5)
 
 # def sample(x,y,a=3,b=4):
 #     print(x,y,a,b)
@@ -85,5 +85,34 @@
 #     print(a,b)
 # tt()
 
+
+# Task on 28-03-2025
+# ====================
+
+def arithmetic(a,b):
+    print("addition: ",a+b)
+    print("subtraction: ",a-b)
+    print("multiplication: ",a*b)
+    print("Division: ",a/b)    
+    print("Modulo division",a%b)
+    print("Floor division: ",a//b)
+arithmetic(10,20)
+
+
+add=lambda x,y:x+y
+print(add(2,3))
+
+square= lambda x:x*x
+print(square(10))
+
+n=[1,2,3,4,5]
+sq=list(map(lambda x:x*x,n))
+print(sq)
+
+nums=[1,2,3,4,5]
+even=list(map(lambda y:y%2==0,nums))
+even1=list(filter(lambda y:y%2==0,nums))
+print(even)
+print(even1)
 
 
